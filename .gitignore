@@ -1,0 +1,23 @@
+# Public release — large data files are not tracked in git.
+# Run: python scripts/copy_data_from_internal.py  (local dev)
+# Or download the Zenodo archive and unzip into data/
+
+data/processed/
+data/seismographs/
+data/catalog/
+data/zenodo_archive/
+submerse-sop-otdr-data-v1.zip
+*.zip
+*.h5
+*.hdf5
+*.mseed
+*.csv
+!data/README.md
+!data/sample/**
+
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+results/

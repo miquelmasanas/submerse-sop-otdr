@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "submerse-sop-otdr"
+version = "0.1.0"
+description = "Public SOP-OTDR analysis notebooks and library (Submerse / SSU-A)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
