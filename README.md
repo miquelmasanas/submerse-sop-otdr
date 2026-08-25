@@ -68,6 +68,8 @@ Full BibTeX: `[references.bib](references.bib)`
 
 SSU-A development: Pierre Mertz and team, Sumudu Edirisinghe. Cable access: EllaLink. OBS data: Universidade de Lisboa (Luis Matías, Carlos Corela, Susana Custódio). Funding: European Union Horizon Europe, Submerse (101095055).
 
+The research leading to these results has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. 101095055 (SUBMERSE).
+
 ## License
 
 
@@ -117,5 +119,6 @@ Catalogue entries are from the [U.S. Geological Survey (USGS)](https://earthquak
 
 ### Suggested attribution text for publications
 
-> SOP-OTDR data from the EllaLink cable (Nokia SSU-A, Submerse project, Miquel Masanas, Pierre Mertz, Sumudu Edirisinghe, Nuno Alves). Land seismic waveforms from IRIS Data Services (stations PM.PLOUS, PM.PMOZ, PM.PMAR, IU.MACI, AF.SVMA, II.SACV, BR.ROSB, IU.RCBR). OBS data courtesy of Universidade de Lisboa (Luis Matías, Carlos Corela, Susana Custódio). Earthquake catalogue from USGS.
+> SOP-OTDR data from the EllaLink cable (Nokia SSU-A, SUBMERSE project funded from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. 101095055, Miquel Masanas, Pierre Mertz, Sumudu Edirisinghe, Nuno Alves). Land seismic waveforms from IRIS Data Services (stations PM.PLOUS, PM.PMOZ, PM.PMAR, IU.MACI, AF.SVMA, II.SACV, BR.ROSB, IU.RCBR). OBS data courtesy of Universidade de Lisboa (Luis Matías, Carlos Corela, Susana Custódio). Earthquake catalogue from USGS.
 
+>
