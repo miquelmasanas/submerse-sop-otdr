@@ -21,3 +21,5 @@ __pycache__/
 .venv/
 venv/
 results/
+
+data/scripts/prepare_zenodo_archive.py

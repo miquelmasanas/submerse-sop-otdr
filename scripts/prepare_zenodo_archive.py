@@ -43,6 +43,8 @@ in the Jan 2025 bundle where present).
 Universidade de Lisboa — OBS data authors: Luis Matías, Carlos Corela,
 Susana Custódio.
 
+German Instrument Pool for Amphibian Seismology (DEPAS), hosted by the Alfred Wegener Institute Bremerhaven, provided the ocean-bottom seismometers.
+
 USGS Earthquake Hazards Program — catalogue CSV files.
 
 Funding: EU Horizon Europe, Submerse project (grant 101095055).
