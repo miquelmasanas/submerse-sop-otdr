@@ -108,3 +108,5 @@ Catalogue entries are from the [U.S. Geological Survey (USGS)](https://earthquak
 ### Suggested attribution text for publications
 
 > SOP-OTDR data from the EllaLink cable (Nokia SSU-A, Submerse project). Land seismic waveforms from IRIS Data Services (stations PM.PLOUS, PM.PMOZ, PM.PMAR, IU.MACI, AF.SVMA, II.SACV, BR.ROSB, IU.RCBR). OBS data courtesy of Universidade de Lisboa (Luis Matías, Carlos Corela, Susana Custódio). Earthquake catalogue from USGS.
+>
+> The research leading to these results has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. 101095055 (SUBMERSE).
