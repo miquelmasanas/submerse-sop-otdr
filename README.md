@@ -35,24 +35,20 @@ The Colab badges open the notebook from GitHub but **do not** clone the reposito
 ```python
 
 import os
-
 from pathlib import Path
 
 REPO = "submerse-sop-otdr"
-
 if not Path(REPO, "src", "[soplib.py](http://soplib.py)").exists():
 
     !git clone -q --depth 1 [https://github.com/miquelmasanas/submerse-sop-otdr.git](https://github.com/miquelmasanas/submerse-sop-otdr.git)
 
 %cd {REPO}
-
 !pip install -q -r requirements.txt
-
 !python scripts/download_[data.py](http://data.py)
+```
 
 ## Directory structure
 
-```
 
 ### Data
 
@@ -92,6 +88,7 @@ Key papers cited in the notebooks:
 Full BibTeX: `[references.bib](references.bib)`
 
 ## Acknowledgments
+Notebooks, soplib, git repository and analysis for submerse: Miquel Masanas
 
 SSU-A development: Pierre Mertz and team, Sumudu Edirisinghe. Cable access: EllaLink. OBS data: Universidade de Lisboa (Luis Matías, Carlos Corela, Susana Custódio). Funding: European Union Horizon Europe, Submerse (101095055).
 
