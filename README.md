@@ -27,6 +27,33 @@ jupyter lab
 
 Launch Jupyter from the repository root so `src/` resolves correctly.
 
+
+### Running on Google Colab
+
+The Colab badges open the notebook from GitHub but **do not** clone the repository or download data. In a **new Colab session**, run this once at the top of the notebook (insert a new cell above **Imports**):
+
+```python
+
+import os
+
+from pathlib import Path
+
+REPO = "submerse-sop-otdr"
+
+if not Path(REPO, "src", "[soplib.py](http://soplib.py)").exists():
+
+    !git clone -q --depth 1 [https://github.com/miquelmasanas/submerse-sop-otdr.git](https://github.com/miquelmasanas/submerse-sop-otdr.git)
+
+%cd {REPO}
+
+!pip install -q -r requirements.txt
+
+!python scripts/download_[data.py](http://data.py)
+
+## Directory structure
+
+```
+
 ### Data
 
 Case-study data (HDF5, MiniSEED, earthquake catalogue) is **not** stored in git.

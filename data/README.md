@@ -4,14 +4,15 @@ Data for the Jan 20 2025 EllaLink / SSU-A notebooks.
 
 Case-study data for the EllaLink / SSU-A notebooks. Two events are supported (see `src/case_studies.py`):
 
-| Case | Day | Catalog | Land MiniSEED | OBS |
-|---|---|---|---|---|
-| `jan2025_taiwan` | 2025-01-20 | `19012025_21012025.csv` | `land/2025-01-20T16_20_00/` | yes |
-| `apr2025_reykjanes` | 2025-04-03 | `Extract_20_03_2025_to_13_04_2025_North_Atlantic.csv` | `land/2025-04-03T14_00_00/` | no |
 
-## Directory structure
+| Case                | Day        | Catalog                                               | Land MiniSEED               | OBS |
+| ------------------- | ---------- | ----------------------------------------------------- | --------------------------- | --- |
+| `jan2025_taiwan`    | 2025-01-20 | `19012025_21012025.csv`                               | `land/2025-01-20T16_20_00/` | yes |
+| `apr2025_reykjanes` | 2025-04-03 | `Extract_20_03_2025_to_13_04_2025_North_Atlantic.csv` | `land/2025-04-03T14_00_00/` | no  |
 
-```
+
+
+
 data/
 ├── processed/ellalink/hdf5/sops/
 │   ├── ellalink_sops_2025-01-20.h5
@@ -26,7 +27,10 @@ data/
     └── land/
         ├── 2025-01-20T16_20_00/
         └── 2025-04-03T14_00_00/
+
 ```
+
+
 
 ## Obtaining the data
 
